@@ -1,5 +1,5 @@
-import { ToDoAccess } from './todosAcess'
-import { StorageLogic } from './attachmentUtils'
+import { ToDoAccess } from '../dataLayer/todosAcess'
+import { StorageLogic } from '../dataLayer/attachmentUtils'
 import { TodoItem } from '../models/TodoItem'
 import { CreateTodoRequest } from '../requests/CreateTodoRequest'
 import { UpdateTodoRequest } from '../requests/UpdateTodoRequest'
